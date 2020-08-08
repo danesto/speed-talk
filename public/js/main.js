@@ -3,7 +3,7 @@ const peers = {};
 
 const socket = io('/')
 const myPeer = new Peer(undefined, {
-    host: 'https://speed-talk.herokuapp.com/',
+    host: '/',
     port: 9000
 })
 
