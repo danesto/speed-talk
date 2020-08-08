@@ -4,7 +4,7 @@ const peers = {};
 const socket = io('/')
 const myPeer = new Peer(undefined, {
     host: 'https://speed-talk.herokuapp.com/',
-    port: 3001
+    port: 443
 })
 
 const myVideo = document.createElement('video');
